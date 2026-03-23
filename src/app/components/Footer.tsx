@@ -1,5 +1,5 @@
 import logoImage from "@/assets/logo-white.png";
-import { Linkedin, Twitter, Facebook, Mail } from "lucide-react";
+import { Mail } from "lucide-react";
 
 export function Footer() {
   const scrollTo = (id: string) => {
@@ -23,10 +23,8 @@ export function Footer() {
             </p>
             <div className="flex gap-3 mt-6">
               {[
-                { Icon: Linkedin, href: "#" },
-                { Icon: Twitter, href: "#" },
-                { Icon: Facebook, href: "#" },
-                { Icon: Mail, href: "mailto:contact@borderlineinsight.com" },
+                // End of Selection
+                { Icon: Mail, href: "mailto:support@borderlineinsight.com" },
               ].map(({ Icon, href }, i) => (
                 <a
                   key={i}

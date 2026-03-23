@@ -21,10 +21,22 @@ export function Contact() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
+
+    const subject = encodeURIComponent(
+      form.subject
+        ? `[${form.subject}] Enquiry from ${form.name}`
+        : `Enquiry from ${form.name}`
+    );
+    const body = encodeURIComponent(
+      `Name: ${form.name}\nEmail: ${form.email}\nCompany: ${form.company || "N/A"}\nArea of Interest: ${form.subject || "N/A"}\n\nMessage:\n${form.message}`
+    );
+
+    window.location.href = `mailto:support@borderlineinsight.com?subject=${subject}&body=${body}`;
+
     setTimeout(() => {
       setLoading(false);
       setSubmitted(true);
-    }, 1500);
+    }, 1000);
   };
 
   return (
@@ -81,26 +93,10 @@ export function Contact() {
                       Email
                     </div>
                     <a
-                      href="mailto:demo@borderlineinsight.com"
+                      href="mailto:support@borderlineinsight.com"
                       className="text-white text-sm hover:text-[#7dd3f0] transition-colors"
                     >
-                      demo@borderlineinsight.com
-                    </a>
-                  </div>
-                </div>
-                <div className="flex items-start gap-4">
-                  <div className="w-10 h-10 rounded-xl bg-[#1094c4]/20 flex items-center justify-center shrink-0">
-                    <Phone size={18} className="text-[#7dd3f0]" />
-                  </div>
-                  <div>
-                    <div className="text-blue-200 text-xs uppercase tracking-wider mb-1">
-                      Phone
-                    </div>
-                    <a
-                      href="tel:+6681234567"
-                      className="text-white text-sm hover:text-[#7dd3f0] transition-colors"
-                    >
-                      +66 81 234 567
+                      support@borderlineinsight.com
                     </a>
                   </div>
                 </div>
