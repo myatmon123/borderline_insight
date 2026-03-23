@@ -13,22 +13,19 @@ const testimonials = [
   {
     quote:
       "Borderline Insight gave us the regional intelligence and strategic clarity we needed to launch across three Southeast Asian markets simultaneously. Their on-the-ground insights were invaluable.",
-    name: "Sarah Chen",
-    title: "VP Strategy, Global FMCG Brand",
+    name: "Sarah",
     initials: "SC",
   },
   {
     quote:
       "The team's depth of knowledge about Southeast Asian regulatory environments saved us months of research and potential missteps. A truly indispensable consulting partner.",
-    name: "James Whitfield",
-    title: "Director, European Investment Group",
+    name: "James",
     initials: "JW",
   },
   {
     quote:
       "Their media and communications strategy helped us connect authentically with audiences across Indonesia, Vietnam, and Thailand. Exceptional cultural sensitivity and expertise.",
-    name: "Priya Nair",
-    title: "CMO, Technology Startup",
+    name: "Priya",
     initials: "PN",
   },
 ];
@@ -101,7 +98,6 @@ export function Partners() {
                 </div>
                 <div>
                   <div className="text-[#0a2e42] text-sm font-semibold">{t.name}</div>
-                  <div className="text-gray-400 text-xs">{t.title}</div>
                 </div>
               </div>
             </div>
