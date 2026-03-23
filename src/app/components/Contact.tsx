@@ -66,9 +66,9 @@ export function Contact() {
                       Office
                     </div>
                     <p className="text-white text-sm leading-relaxed">
-                      Idk Street<br />
-                      Mueang Chiang Mai, Chiang Mai<br />
-                      Thailand, 50200
+                      10 Soi 9, Sirimangklajarn Road<br />
+                      Suthep Subdistrict, Mueang Chiang Mai District<br />
+                      Chiang Mai, Thailand, 50200
                     </p>
                   </div>
                 </div>

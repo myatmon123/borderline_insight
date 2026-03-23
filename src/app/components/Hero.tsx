@@ -29,7 +29,7 @@ export function Hero() {
             <span className="block text-[#7dd3f0]">with Confidence</span>
           </h1>
           <p className="text-blue-100 text-lg mb-10 max-w-2xl mx-auto leading-relaxed">
-            Boomerang Media provides expert consulting services to help businesses
+            Borderline Insight provides expert consulting services to help businesses
             understand, enter, and thrive in the dynamic markets of Southeast Asia.
             We bridge cultures, decode markets, and unlock opportunities.
           </p>

@@ -53,7 +53,7 @@ export function About() {
               Your Trusted Partner in Southeast Asia
             </h2>
             <p className="text-gray-500 leading-relaxed mb-5">
-              Boomerang Media Pte. Ltd. is a Singapore-based consulting firm dedicated to
+              Borderline Insight Co., Ltd. is a Singapore-based consulting firm dedicated to
               helping organisations navigate the vibrant and fast-evolving landscape of
               Southeast Asia. Founded on the belief that genuine regional expertise is
               irreplaceable, we combine rigorous research with deep local knowledge.

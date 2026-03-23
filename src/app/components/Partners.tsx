@@ -12,7 +12,7 @@ const partners = [
 const testimonials = [
   {
     quote:
-      "Boomerang Media gave us the regional intelligence and strategic clarity we needed to launch across three Southeast Asian markets simultaneously. Their on-the-ground insights were invaluable.",
+      "Borderline Insight gave us the regional intelligence and strategic clarity we needed to launch across three Southeast Asian markets simultaneously. Their on-the-ground insights were invaluable.",
     name: "Sarah Chen",
     title: "VP Strategy, Global FMCG Brand",
     initials: "SC",
