@@ -48,25 +48,6 @@ export function Hero() {
             </button>
           </div>
 
-          {/* Stats */}
-          <div className="mt-16 grid grid-cols-3 gap-6 max-w-lg mx-auto">
-            {[
-              { value: "10+", label: "Countries Covered" },
-              { value: "20+", label: "Years Experience" },
-              { value: "200+", label: "Projects Delivered" },
-            ].map((stat) => (
-              <div key={stat.label} className="text-center">
-                <div
-                  className="text-[#7dd3f0]"
-                  style={{ fontSize: "clamp(1.5rem, 3vw, 2rem)", fontWeight: 700 }}
-                >
-                  {stat.value}
-                </div>
-                <div className="text-blue-200 text-xs mt-1 leading-tight">{stat.label}</div>
-              </div>
-            ))}
-          </div>
-
         </div>
       </div>
     </section>

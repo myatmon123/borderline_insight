@@ -14,7 +14,9 @@ export default defineConfig({
     tailwindcss(),
     // Github repo name
   ],
-  base: '/borderline_insight/',
+  // Use '/' for Cloudflare Pages (and most hosts) when the site is served at the domain root.
+  // Use '/borderline_insight/' only if the app is deployed under that path (e.g. GitHub Project Pages).
+  base: '/',
   resolve: {
     alias: {
       // Alias @ to the src directory

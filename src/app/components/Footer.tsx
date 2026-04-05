@@ -24,7 +24,7 @@ export function Footer() {
             <div className="flex gap-3 mt-6">
               {[
                 // End of Selection
-                { Icon: Mail, href: "mailto:support@borderlineinsight.com" },
+                { Icon: Mail, href: "mailto:contact@borderline-insight.com" },
               ].map(({ Icon, href }, i) => (
                 <a
                   key={i}
@@ -50,7 +50,6 @@ export function Footer() {
                 { label: "Home", id: "hero" },
                 { label: "Services", id: "services" },
                 { label: "About Us", id: "about" },
-                { label: "Partners", id: "partners" },
                 { label: "Contact Us", id: "contact" },
               ].map((item) => (
                 <li key={item.id}>

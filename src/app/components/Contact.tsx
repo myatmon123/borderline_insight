@@ -31,7 +31,7 @@ export function Contact() {
       `Name: ${form.name}\nEmail: ${form.email}\nCompany: ${form.company || "N/A"}\nArea of Interest: ${form.subject || "N/A"}\n\nMessage:\n${form.message}`
     );
 
-    window.location.href = `mailto:support@borderlineinsight.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:contact@borderline-insight.com?subject=${subject}&body=${body}`;
 
     setTimeout(() => {
       setLoading(false);
@@ -73,16 +73,6 @@ export function Contact() {
                   <div className="w-10 h-10 rounded-xl bg-[#1094c4]/20 flex items-center justify-center shrink-0">
                     <MapPin size={18} className="text-[#7dd3f0]" />
                   </div>
-                  <div>
-                    <div className="text-blue-200 text-xs uppercase tracking-wider mb-1">
-                      Office
-                    </div>
-                    <p className="text-white text-sm leading-relaxed">
-                      10 Soi 9, Sirimangklajarn Road<br />
-                      Suthep Subdistrict, Mueang Chiang Mai District<br />
-                      Chiang Mai, Thailand, 50200
-                    </p>
-                  </div>
                 </div>
                 <div className="flex items-start gap-4">
                   <div className="w-10 h-10 rounded-xl bg-[#1094c4]/20 flex items-center justify-center shrink-0">
@@ -93,10 +83,10 @@ export function Contact() {
                       Email
                     </div>
                     <a
-                      href="mailto:support@borderlineinsight.com"
+                      href="mailto:contact@borderline-insight.com"
                       className="text-white text-sm hover:text-[#7dd3f0] transition-colors"
                     >
-                      support@borderlineinsight.com
+                      contact@borderline-insight.com
                     </a>
                   </div>
                 </div>
