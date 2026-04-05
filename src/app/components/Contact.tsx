@@ -71,11 +71,6 @@ export function Contact() {
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
                   <div className="w-10 h-10 rounded-xl bg-[#1094c4]/20 flex items-center justify-center shrink-0">
-                    <MapPin size={18} className="text-[#7dd3f0]" />
-                  </div>
-                </div>
-                <div className="flex items-start gap-4">
-                  <div className="w-10 h-10 rounded-xl bg-[#1094c4]/20 flex items-center justify-center shrink-0">
                     <Mail size={18} className="text-[#7dd3f0]" />
                   </div>
                   <div>
